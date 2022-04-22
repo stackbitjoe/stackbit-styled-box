@@ -1,0 +1,6 @@
+type: object
+name: Card
+label: Card
+fields:
+  - type: string
+    name: Test

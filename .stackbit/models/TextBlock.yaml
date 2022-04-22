@@ -1,0 +1,9 @@
+type: object
+name: TextBlock
+label: Text block
+labelField: text
+fields:
+  - type: markdown
+    name: text
+    label: Text
+    default: Some Text

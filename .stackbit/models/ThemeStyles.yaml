@@ -1,0 +1,36 @@
+type: data
+name: ThemeStyle
+label: Theme Config
+file: styles.json
+fieldGroups:
+  - name: breakpoints
+    label: Breakpoints
+fields:
+  - type: number
+    label: Extra Large Screen
+    name: extraLarge
+    default: 1025
+    min: 0
+    unit: 'px'
+    group: breakpoints
+  - type: number
+    label: Large Screen
+    name: large
+    default: 769
+    min: 0
+    unit: 'px'
+    group: breakpoints
+  - type: number
+    label: Medium Screen
+    name: medium
+    default: 481
+    min: 0
+    unit: 'px'
+    group: breakpoints
+  - type: number
+    label: Small Screen
+    name: small
+    default: 320
+    min: 0
+    unit: 'px'
+    group: breakpoints

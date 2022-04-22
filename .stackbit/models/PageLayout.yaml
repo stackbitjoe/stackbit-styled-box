@@ -1,0 +1,15 @@
+name: PageLayout
+hideContent: true
+fieldGroups:
+  - name: breakpoints
+    label: Breakpoints
+fields:
+  - type: string
+    name: title
+    label: Title
+    default: This is a new page
+    required: true
+  - type: Freeform
+    name: Freeform
+    label: "Content Area"
+    default: null

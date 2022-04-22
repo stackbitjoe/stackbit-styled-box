@@ -1,0 +1,11 @@
+type: object
+name: Freeform
+label: Free Form Content
+fields:
+  - type: list
+    name: Boxes
+    label: Content Boxes
+    items:
+      type: model
+      models:
+        - Box

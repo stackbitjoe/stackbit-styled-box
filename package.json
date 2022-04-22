@@ -1,0 +1,29 @@
+{
+  "name": "stackbit-styled-grid",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/styled": "^11.8.1",
+    "@stackbit/annotations": "^0.1.2",
+    "@styled-system/should-forward-prop": "^5.1.5",
+    "markdown-to-jsx": "^7.1.7",
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "sourcebit": "^0.11.1",
+    "sourcebit-source-filesystem": "^0.2.0",
+    "sourcebit-target-next": "^0.8.1",
+    "styled-components": "^5.3.5",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5"
+  }
+}

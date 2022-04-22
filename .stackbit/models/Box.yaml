@@ -1,0 +1,138 @@
+type: object
+name: Box
+label: Box
+labelField: title
+fieldGroups:
+  - name: responsive
+    label: Responsive
+  - name: layout
+    label: Layout
+fields:
+  - type: string
+    hidden: true
+    name: type
+    default: Box
+  - type: string
+    name: title
+    label: Title
+    default: Content Box
+  - type: number
+    label: Extra Large Screen Width
+    name: extraLargeWidth
+    controlType: 'slider'
+    default: 25
+    min: 0
+    max: 100
+    step: 1
+    unit: '%'
+    group: responsive
+  - type: number
+    label: Large Screen Width
+    name: largeWidth
+    controlType: 'slider'
+    default: 25
+    min: 0
+    max: 100
+    step: 1
+    unit: '%'
+    group: responsive
+  - type: number
+    label: Medium Screen Width
+    name: mediumWidth
+    controlType: 'slider'
+    default: 25
+    min: 0
+    max: 100
+    step: 1
+    unit: '%'
+    group: responsive
+  - type: number
+    label: Small Screen Width
+    name: smallWidth
+    controlType: 'slider'
+    default: 25
+    min: 0
+    max: 100
+    step: 1
+    unit: '%'
+    group: responsive
+  - type: list
+    name: Boxes
+    label: "Boxes"
+    items:
+      type: model
+      models:
+        - Box
+        - TextBlock
+        - ImageBlock
+        - Card
+        - Heading
+  - type: enum
+    name: display
+    label: Display
+    group: layout
+    default: "flex"
+    options: 
+      - label: "Flex"
+        value: "flex"
+  - type: enum
+    name: wrap
+    label: Wrap Content
+    group: layout
+    default: "none"
+    options: 
+      - label: "No Wrapping" 
+        value: "none"
+      - label: "Wrap" 
+        value: "wrap"
+      - label: "Reverse"
+        value: "wrap-reverse" 
+  - type: enum
+    name: flexDirection
+    label: Direction
+    group: layout
+    options: 
+      - label: "Row" 
+        value: "row"
+      - label: "Reversed Row" 
+        value: "row-reverse"
+      - label: "Column"
+        value: "column" 
+      - label: "Reversed Column"
+        value: "column-reverse" 
+  - type: enum
+    name: justify
+    label: Justify Content
+    group: layout
+    options: 
+      - label: "Start" 
+        value: "start"
+      - label: "Center" 
+        value: "center"
+      - label: "End"
+        value: "end" 
+      - label: "Space Between"
+        value: "space-between" 
+      - label: "Space Around" 
+        value: "space-around"
+      - label: "Space Evenly"
+        value: "space-evenly"
+  - type: enum
+    name: align
+    label: Align Content
+    group: layout
+    options: 
+      - label: "Start" 
+        value: "flex-start"
+      - label: "Center" 
+        value: "center"
+      - label: "End"
+        value: "flex-end" 
+      - label: "Stretch"
+        value: "stretch" 
+      - label: "Baseline" 
+        value: "baseline"
+  - type: number
+    name: order
+    label: Column Order
+    group: layout
