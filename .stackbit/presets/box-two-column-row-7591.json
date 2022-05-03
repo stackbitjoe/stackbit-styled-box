@@ -1,0 +1,88 @@
+{
+    "model": "Box",
+    "presets": [
+        {
+            "label": "Two Column Row",
+            "thumbnail": "images/box-two-column-row-7591.png",
+            "metadata": {
+                "categories": [
+                    "Row Layouts"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "type": "Box",
+                "title": "Content Box",
+                "extraLargeWidth": 100,
+                "largeWidth": 100,
+                "mediumWidth": 100,
+                "smallWidth": 100,
+                "Boxes": [
+                    {
+                        "type": "Box",
+                        "title": "Content Box",
+                        "extraLargeWidth": 50,
+                        "largeWidth": 50,
+                        "mediumWidth": 100,
+                        "smallWidth": 100,
+                        "Boxes": [],
+                        "display": "flex",
+                        "wrap": "none",
+                        "flexDirection": {
+                            "label": "Row",
+                            "value": "row"
+                        },
+                        "justify": {
+                            "label": "Start",
+                            "value": "start"
+                        },
+                        "align": {
+                            "label": "Start",
+                            "value": "flex-start"
+                        },
+                        "order": 0
+                    },
+                    {
+                        "type": "Box",
+                        "title": "Content Box",
+                        "extraLargeWidth": 50,
+                        "largeWidth": 50,
+                        "mediumWidth": 100,
+                        "smallWidth": 100,
+                        "Boxes": [],
+                        "display": "flex",
+                        "wrap": "none",
+                        "flexDirection": {
+                            "label": "Row",
+                            "value": "row"
+                        },
+                        "justify": {
+                            "label": "Start",
+                            "value": "start"
+                        },
+                        "align": {
+                            "label": "Start",
+                            "value": "flex-start"
+                        },
+                        "order": 0
+                    }
+                ],
+                "display": "flex",
+                "wrap": "none",
+                "flexDirection": {
+                    "label": "Row",
+                    "value": "row"
+                },
+                "justify": {
+                    "label": "Start",
+                    "value": "start"
+                },
+                "align": {
+                    "label": "Start",
+                    "value": "flex-start"
+                },
+                "order": 0
+            }
+        }
+    ]
+}

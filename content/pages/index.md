@@ -4,7 +4,7 @@ layout: PageLayout
 Freeform:
   Boxes:
     - type: Box
-      title: Content Box
+      title: Three Column Row
       extraLargeWidth: 100
       largeWidth: 100
       mediumWidth: 100
@@ -78,7 +78,7 @@ Freeform:
       order: 0
       display: flex
     - type: Box
-      title: Content Box
+      title: One Column Row
       extraLargeWidth: 100
       largeWidth: 100
       mediumWidth: 100
@@ -97,7 +97,64 @@ Freeform:
         value: flex-start
       order: 0
     - type: Box
-      title: Content Box
+      title: Two Column Row
+      extraLargeWidth: 100
+      largeWidth: 100
+      mediumWidth: 100
+      smallWidth: 100
+      Boxes:
+        - type: Box
+          title: Content Box
+          extraLargeWidth: 50
+          largeWidth: 50
+          mediumWidth: 100
+          smallWidth: 100
+          Boxes: []
+          display: flex
+          wrap: none
+          flexDirection:
+            label: Row
+            value: row
+          justify:
+            label: Start
+            value: start
+          align:
+            label: Start
+            value: flex-start
+          order: 0
+        - type: Box
+          title: Content Box
+          extraLargeWidth: 50
+          largeWidth: 50
+          mediumWidth: 100
+          smallWidth: 100
+          Boxes: []
+          display: flex
+          wrap: none
+          flexDirection:
+            label: Row
+            value: row
+          justify:
+            label: Start
+            value: start
+          align:
+            label: Start
+            value: flex-start
+          order: 0
+      display: flex
+      wrap: none
+      flexDirection:
+        label: Row
+        value: row
+      justify:
+        label: Start
+        value: start
+      align:
+        label: Start
+        value: flex-start
+      order: 0
+    - type: Box
+      title: Nested Box Row
       extraLargeWidth: 100
       largeWidth: 100
       mediumWidth: 100
